@@ -10,7 +10,8 @@ Having aluminum bars extend out far in front and having a load applied causes si
 
 1)Assuming that the thruster shaft is 2ft below the mount, and the thruster is providing 110[lb] thrust, we can calculate the moment to be   M = F*D = 110[lb]*2[ft] = 220 [lb*ft]. 
 
-2) Now if we assume that the moment is to be distributed throughout all of the bolts equally, and there are 12 bolts total on the aluminum    mounts, we see that the moment at each bolt to be M(bolt) = M(total)/(Number of bolts) = 220[lb]/12 = 18.33[lb*f].
+2) Now if we assume that the moment is to be distributed throughout all of the bolts equally, and there are 12 bolts total on the   
+   aluminum    mounts, we see that the moment at each bolt to be M(bolt) = M(total)/(Number of bolts) = 220[lb]/12 = 18.33[lb*f].
 
 3)Now to find the shear force at each bolt, we need to find the moment arm. The moment arm is located at the midpoint between the first 
   and the last bolt. The bolts are equally spaced by 6in and there are 6 on each aluminum rod, hence the bolts span a length of 30in and
@@ -30,22 +31,27 @@ Having aluminum bars extend out far in front and having a load applied causes si
 
 Follow the same concept as previous calculation. 
 
-1) In the previous calculations, we neglected the weight of the thruster because the moment caused by the weight of the thruster will actually counteract the moment caused by forward thrust, and we wanted to calculate the worst cause senario. 
+1) In the previous calculations, we neglected the weight of the thruster because the moment caused by the weight of the thruster will 
+   actually counteract the moment caused by forward thrust, and we wanted to calculate the worst cause senario. 
 
-2) In contrast, when the thrusters are going in reverse, the moment caused by the weight of the thrusters will supplement the moment   created by the reverse thrust, so we want to take the weight into consideration in this calculation.
+2) In contrast, when the thrusters are going in reverse, the moment caused by the weight of the thrusters will supplement the moment  
+   created by the reverse thrust, so we want to take the weight into consideration in this calculation.
 
-3) The weight of the thruster is 55lb. The distance from the mount to the first bolt is 5.4ft. The moment created by the weight can be calculated by M(weight) = w*d = 55[lb]*5.4[ft] =297[lb*ft].
+3) The weight of the thruster is 55lb. The distance from the mount to the first bolt is 5.4ft. The moment created by the weight can be
+   calculated by M(weight) = w*d = 55[lb]*5.4[ft] =297[lb*ft].
 
-4) The reverse power of the thruster is rated at 70%. We assume that the thruster shaft is 2ft below the mounts. So the moment created by full reverse can be calculated by M(thrust) = f*d = 110[lb]*0.70*2[ft] = 154[lb*ft]
+4) The reverse power of the thruster is rated at 70%. We assume that the thruster shaft is 2ft below the mounts. So the moment created
+   by full reverse can be calculated by M(thrust) = f*d = 110[lb]*0.70*2[ft] = 154[lb*ft]
 
 5)The total moment is then M(total) = M(weight) + M(thrust) = 297 + 154 = 451 [lb*ft]
 
 6) Now the moment distributed to each bolt is M(bolt) = M(total)/(number of bolts) = 451/12 = 37.6[lb*ft]
 
 7) The maximum shear force is then V(max) = M(bolt)/d, where d is the distance from the moment arm to the closest bolt.
-V(max) = 37.6/0.25 = 150[lb]
+   V(max) = 37.6/0.25 = 150[lb]
 
-8) The maximum clamping load is 14x greater than the maximum shear force, so it is safe to say that under these conditions, the mounts will not break off. 
+8) The maximum clamping load is 14x greater than the maximum shear force, so it is safe to say that under these conditions, the mounts 
+   will not break off. 
 
 # additional info
 
