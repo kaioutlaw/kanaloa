@@ -8,8 +8,8 @@ Having aluminum bars extend out far in front and having a load applied causes si
 
 # Max moment created by forward thrust
 
-1)Assuming that the thruster shaft is 2ft below the mount, and the thruster is providing 110[lb] thrust, we can calculate the moment to
-  be M = F*D = 110[lb]*2[ft] = 220 [lb*ft]. 
+1) Assuming that the thruster shaft is 2ft below the mount, and the thruster is providing 110[lb] thrust, we can calculate the moment to
+   be M = F*D = 110[lb]*2[ft] = 220 [lb*ft]. 
 
 2) Now if we assume that the moment is to be distributed throughout all of the bolts equally, and there are 12 bolts total on the   
    aluminum    mounts, we see that the moment at each bolt to be M(bolt) = M(total)/(Number of bolts) = 220[lb]/12 = 18.33[lb*f].
